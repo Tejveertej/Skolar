@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>semantic elements</title>
+</head>
+
+<style>
+    body{
+
+        margin: 0;
+        padding: 0;
+
+    }
+
+    header{
+        padding: 10px;
+        background-color: blue;
+        color:white;
+        text-align: center;
+    }
+
+    nav{
+        background-color:black;
+        padding: 10px;
+        margin: 10px;
+
+    }
+
+    nav a{
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        margin-right: 10px;
+        display: inline-block;
+    }
+
+    .container{
+        display:flex;
+        justify-content: space-between;
+        max-width: 95%;
+        margin: 0 auto ;
+        padding: 20px;
+    }
+
+    article p{
+        text-align: justify;
+
+    }
+
+    main{
+        flex: 2;
+    }
+
+    article{
+        margin-bottom: 20px;
+        padding: 10px 20px;
+        border: 2px solid rgb(145,145,145);
+        margin-right: 10px;
+    }
+
+    aside{
+        flex: 1;
+            background-color: #f0f0f0; 
+            padding: 10px;
+    }
+
+    footer{
+        background-color:blue;
+        color:white;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+</style>
+
+<body>
+
+    <header>
+        <h1>About Cricketers</h1>
+        <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">contact</a>
+</nav>
+</header>
+
+    <div class="container">
+
+   
+    
+    <main>
+
+        <article>
+            <h2>Virat kohli</h2>
+            <p>Virat Kohli (born November 5, 1988, Delhi, India) is an Indian international cricketer considered by many as one of the greatest batsmen in the history of the game. Kohli plays for (and previously captained) the Royal Challengers Bangalore (RCB) in the Indian Premier League (IPL). He is also a former captain of the Indian cricket team in all three international formats—Test cricket, one-day internationals (ODIs), and Twenty20 internationals (T20I)—making him one of India's most successful captains
+            </p>
+   
+        </article>
+        <article>
+            <h2>AB de Villiers</h2>
+            <p>Abraham Benjamin de Villiers (born 17 February 1984) is a South African former international cricketer, and a current commentator. AB de Villiers was named as the ICC ODI Player of the Year[2] three times during his 15-year international career and was one of the five Wisden cricketers of the decade at the end of 2019.[3] He is regarded as one of the greatest cricketers in the history of the sport and the best batsman of his era, dominating the Number 1 ranking for batsmen in tests & ODIs more than any other batsman of his era.[4] [5][6] De Villiers began his international career as a wicket-keeper-batsman, but he has played most often solely as a batsman. He batted at various positions in the batting order, but predominantly in the middle-order.
+
+            </p>
+        </article>
+        <article>
+            <h2>Ricky ponting </h2>
+            <p>
+                Ricky Thomas Ponting AO (born 19 December 1974) is an Australian cricket coach, commentator and former player. Widely regarded as one of the greatest batsmen of all time, Ponting was captain of the Australia national team between 2004 and 2011 in Test cricket and 2002 and 2011 in One Day Internationals (ODIs) and is the most successful captain in international cricket history, with 220 victories in 324 matches with a winning rate of 67.91%. He stands third in the list of cricketers by number of international centuries scored. He holds the record for winning most ICC tournaments as a captain in Men's Cricket. Under his Captaincy Australia won the 2003 and 2007 Cricket World Cups and 2006 and 2009 Champions Trophies. He was also a member of the Australian team that won the 1999 Cricket World Cup. 
+            </p>
+        </article>
+    </main>
+
+    <aside>
+        <nav>
+            <li> <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">contact</a>
+            </li>
+        </nav>
+     </aside>
+
+     </div>
+
+    <footer>
+        <p> &copy; 2024.All rights reserved</p>
+    </footer>
+</body>
+</html>
